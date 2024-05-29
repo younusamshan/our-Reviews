@@ -2,9 +2,9 @@
 
 /* On screens that are 179px wide or less, go from four columns to two columns */
 @media screen and (max-width: 383px) {
-    body{
-        background-color: blue;
-    }
+    /* body{ */
+        /* background-color: blue; */
+    /* } */
     .row{
         width: 100%;
         padding-left: 10px;
