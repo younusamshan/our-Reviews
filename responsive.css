@@ -1,0 +1,29 @@
+
+
+/* On screens that are 179px wide or less, go from four columns to two columns */
+@media screen and (max-width: 383px) {
+    body{
+        background-color: blue;
+    }
+    .row{
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 14px;
+  }
+  .row .our{
+    font-size: 1.5rem;
+  }
+  .row h3 {
+    font-size: 1rem;
+  }
+  .btns button {
+    margin: 5px;
+  }
+}
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 981px) {
+    /* .row {
+      width: 50%; 
+    } */
+  }

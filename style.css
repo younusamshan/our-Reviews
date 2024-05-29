@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    /* overflow-block: hidden; */
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: burlywood; */
+
+}
+.container{
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    width: 53%;
+    padding-left: 5px;
+    padding-right: 5px;
+     box-shadow: 10px 10px 10px  rgb(214, 211, 211);
+    padding-top: 20px;
+    border-top: 2px solid rgb(214, 211, 211);
+    border-left: 2px solid rgb(214, 211, 211);
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-tag{
+    width: 100px;
+    height: 100px;
+    border-radius: 48%;
+}
+.img-tag img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    
+}
+.btns button img{
+    width: 40px;
+}
+.btns button{
+    /* background-color: aqua; */
+     margin: 20px;
+    border: none;
+}
+#surpraise{
+    border: none;
+    background-color: white;
+}
+#surpraise img{
+    
+    width: 100px;
+}
