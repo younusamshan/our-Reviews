@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: gray;
+}
 .main{
     display: flex;
     /* overflow-block: hidden; */
@@ -21,11 +24,12 @@
     justify-content: center;
 }
 .row{
-    width: 53%;
+    width: 650px;
     padding-left: 5px;
     padding-right: 5px;
-     box-shadow: 10px 10px 10px  rgb(214, 211, 211);
+     box-shadow: 10px 10px 10px  rgb(177, 172, 172);
     padding-top: 20px;
+     background-color: aquamarine;
     border-top: 2px solid rgb(214, 211, 211);
     border-left: 2px solid rgb(214, 211, 211);
     /* background-color: aqua; */
@@ -49,15 +53,22 @@
     width: 40px;
 }
 .btns button{
-    background-color: white;
+    background-color: aquamarine;
      margin: 20px;
     border: none;
 }
 #surpraise{
     border: none;
-    background-color: white;
+    background-color: aquamarine;
 }
 #surpraise img{
     
     width: 100px;
+}
+.discrption{
+    width: 100px;
+    padding: 10px;
+}
+.dic {
+    /* background-color: blue; */
 }
